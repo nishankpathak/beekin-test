@@ -1,0 +1,72 @@
+{
+  "name": "frontend-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/lodash": "^4.14.191",
+    "@types/node": "^16.18.3",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "@types/react-highlight": "^0.12.5",
+    "@types/react-highlighter": "^0.3.5",
+    "@types/redux-logger": "^3.0.9",
+    "axios": "^1.2.0",
+    "googleapis": "^111.0.0",
+    "immer": "^9.0.16",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.6.0",
+    "react-debounce-input": "^3.3.0",
+    "react-dom": "^18.2.0",
+    "react-highlighter": "^0.4.3",
+    "react-icons": "^4.7.1",
+    "react-paginate": "^8.1.4",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.4.3",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.7.0",
+    "react-select-async-paginate": "^0.7.2",
+    "redux-logger": "^3.0.6",
+    "typescript": "^4.9.3",
+    "validator": "^13.7.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "PORT=4000 react-scripts start",
+    "build": "BUILD_PATH=../server/public/ react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-router-hash-link": "^2.4.5",
+    "@types/validator": "^13.7.10",
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "@typescript-eslint/parser": "^5.48.1",
+    "eslint-plugin-react": "^7.32.0",
+    "eslint-plugin-unused-imports": "^2.0.0"
+  }
+}
